@@ -1,0 +1,23 @@
+body {
+background:#333;
+	background-repeat: no-repeat;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+form {
+	background-color: transparent;
+	width:50%;
+	float:left;
+  border:0px;
+  font-family: Verdana;
+  color: white;
+}
+#resultado {
+	background-color:#333;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+  text-align: justify;
+  width: 50%;
+  float:right;
+  color: white;
+}
