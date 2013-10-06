@@ -27,7 +27,7 @@ $frases = (isset($_POST['frases']) and
 <link rel="stylesheet" type="text/css" href="style.css">
 <form action='<?php echo $_SERVER['PHP_SELF']; ?>' method='POST'>
 <fieldset>
-<legend>VALEYRIAN GENERATOR</legend>
+<legend>High Valyrian Generator</legend>
 <p>
   <label>Number of pararaphs:
     <select name='nparagrafos'>
@@ -46,7 +46,7 @@ for($ix = 1; $ix <= 10; $ix++)
 </label>
 </p>
 <p>
-<label>Number of phrase per paragraph:
+<label>Number of phrases per paragraph:
   <select name='frases'>
 <?php for($ix = 1; $ix <= 10; $ix++)
 {
@@ -61,7 +61,7 @@ for($ix = 1; $ix <= 10; $ix++)
   </select>
 </label>
 </p>
-<p><input type='submit' value='Generate Valeryan'></p>
+<p><input type='submit' value='Generate Valyrian'></p>
 </fieldset>
 </form>
 <pre id='copytext'>
